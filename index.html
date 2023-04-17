@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="img/Logo.png" alt="logo de alura">
+  </header>
+  
+  <main class="main">
+    <section class="form box">
+      <form>
+        <label for="input-texto">Ingrese texto en minúsculas y sin acentos</label>
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="5" cols="50"></textarea>
+        
+        <div class="button-container">
+          <input class="btn" type="submit" value="Encriptar 😎" id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar 😢" id="btn-desencriptar">
+        </div>
+     
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <label for="mensaje-texto">Mensaje encriptado:</h2></label>
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="5" cols="50"></textarea>              
+      <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+    </section>
+  </main>
+
+  <footer>
+    <p class="copyright">&copy Copyright Aleksandr - 2023</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
